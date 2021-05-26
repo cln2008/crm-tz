@@ -12,13 +12,13 @@ use App\CRM\Activities;
 $client = new CRMClient();
 $notes  = new Notes();
 
-$notes = $client
+$notesData = $client
     ->setEntity("notes")
     ->setRequestUrl()
     ->get();
 
-if (intval($notes['success']) === 1) {
-    $notes->setNotes($notes['data']);
+if (intval($notesData['success']) === 1) {
+    $notes->setNotes($notesData['data']);
 }
 
 $persons = $client
