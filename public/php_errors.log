@@ -1,8 +1,0 @@
-[26-May-2021 21:40:17 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function setNotes() on array in C:\var\www\_tz\public\index.php:21
-Stack trace:
-#0 {main}
-  thrown in C:\var\www\_tz\public\index.php on line 21
-[26-May-2021 21:43:22 Europe/Kiev] PHP Fatal error:  Uncaught Error: Cannot use object of type App\CRM\Notes as array in C:\var\www\_tz\public\index.php:20
-Stack trace:
-#0 {main}
-  thrown in C:\var\www\_tz\public\index.php on line 20
